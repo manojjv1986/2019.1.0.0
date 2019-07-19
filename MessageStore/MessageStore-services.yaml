@@ -1,0 +1,22 @@
+services:
+  TMA-GLOBAL:
+    type: TMA
+    replay:
+      host: localhost
+      port: 8090
+      path: /TMAreplayEndpoint
+      basePath: /v2
+  WMA-GLOBAL:
+    type: sample
+    replay:
+      host: localhost
+      port: 8091
+      path: /WMAreplayEndpoint
+      basePath: /v2
+  SAP-GLOBAL:
+    type: sample
+    replay:
+      host: localhost
+      port: 8092
+      path: /SAPreplayEndpoint
+      basePath: /v2
